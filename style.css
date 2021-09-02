@@ -1,0 +1,103 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    background: linear-gradient(to top left, #323632, #4e4f50);
+    border-radius: 10px;
+}
+
+.calculator {
+    padding: 20px;
+}
+
+.calculator-decor {
+    color: rgb(133, 130, 130);
+    font-size: 25px;
+    padding-bottom: 10px;
+    display: block;
+    text-align: center;
+    text-shadow: 1px 3px 2px rgb(0, 0, 0);
+}
+
+.calculator-result {
+    color: white;
+    line-height: 100px;
+    font-size: 30px;
+    margin-bottom: 15px;
+    padding-right: 5px;
+    height: 100px;
+    text-align: right;
+    background: radial-gradient(rgb(53, 51, 51), #000000);
+    border-radius: 6px;
+}
+
+.calculator-list {
+    display: grid;
+    grid-template-rows: 88px 88px 88px 88px 88px;
+    grid-template-columns: 88px 88px 88px 88px;
+    grid-gap: 2px;
+}
+.calculator-item {
+    background-color: rgb(63, 85, 49);
+    border-radius: 8px;
+}
+
+.btn {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.btn:hover {
+    background-color: rgb(80, 109, 63);
+}
+
+.discharge {
+    background-color: rgb(168, 78, 62);
+}
+
+.discharge:hover {
+    background-color: rgb(197, 92, 74);
+}
+
+.operators {
+    background-color: rgb(89, 117, 32);
+}
+
+.operators:hover {
+    background-color: rgb(114, 150, 41);
+}
+
+.smooth {
+    background-color: rgb(34, 143, 132);
+}
+
+.smooth:hover {
+    background-color: rgb(41, 170, 157);
+}
+
+.peculiarity {
+    font-size: 20px;
+}
+
