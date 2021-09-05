@@ -81,11 +81,11 @@ button {
     background-color: rgb(197, 92, 74);
 }
 
-.operators {
+.operator {
     background-color: rgb(89, 117, 32);
 }
 
-.operators:hover {
+.operator:hover {
     background-color: rgb(114, 150, 41);
 }
 
@@ -97,7 +97,7 @@ button {
     background-color: rgb(41, 170, 157);
 }
 
-.peculiarity {
+.btn-peculiarity {
     font-size: 20px;
 }
 
